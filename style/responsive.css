@@ -1,0 +1,83 @@
+/* ==========================================1030======================== */
+
+@media only screen and (max-width: 1030px) {
+  
+  
+
+
+
+  .banner-box {
+    position: absolute;
+    top: 12rem;
+    right: 80px;
+    width: 40%;
+  }
+  .find-box {
+    padding: 0 20px;
+  }
+
+  .find-box .child {
+    border: 2px solid var(--green-deep);
+    padding: 40px;
+  }
+
+  .find-box .child h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+.register {
+    width: 100%;
+}
+.register .footer-contact {
+    padding: 12px 36px;
+   }
+
+
+
+
+}
+
+/* ==========================================770======================== */
+
+@media only screen and (max-width: 770px) {
+  .find-box .child {
+    border: 2px solid var(--green-deep);
+    padding: 40px;
+  }
+
+  .find-box .child h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .findcar-btn {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 35px;
+  }
+}
+
+/* ==========================================740======================== */
+
+@media only screen and (max-width: 740px) {
+}
+
+/* ==========================================670======================== */
+
+@media only screen and (max-width: 670px) {
+}
+
+/* ==========================================420======================== */
+
+@media only screen and (max-width: 420px) {
+  #findcar h1 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+}
+
+/* ==========================================380======================== */
+
+@media only screen and (max-width: 380px) {
+}
