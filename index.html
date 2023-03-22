@@ -58,6 +58,7 @@
         <h2>Select your School and Pickup location</h2>
 
         <div>
+          <form>
           <select name="cars" id="cars">
             <option value="volvo" disabled selected>School Name</option>
             <option value="saab">South Point Morning</option>
@@ -72,7 +73,9 @@
             <option value="audi">Behala</option>
           </select>
 
-          <a href="#" class="banner-box-btn">SEARCH</a>
+          <button type="submit" class="banner-box-btn">SEARCH</button>
+
+        </form>
         </div>
       </div>
     </div>
@@ -112,32 +115,11 @@
       </form>
     </div>
 
-    <!------------------------TESTIMONIAL------------------->
-
-    <div id="testimonial">
-      <h2>Our Testimonial</h2>
-
-      <div class="owl-carousel owl-theme">
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-      </div>
-    </div>
-
+ 
     <!------------------------HOW TO SELECT THE RIGHT POOL CAR------------------->
 
     <div id="poolcarselect">
+      
       <h2>How to Select The Right Pool Car</h2>
 
       <div class="row find-box">
@@ -145,7 +127,7 @@
           <div class="child">
             <img src="images/one.png" />
             <h3>Check Legal Operation Permit</h3>
-            <a href="#">Read More</a>
+            <a href="#" class="readmore">Read More</a>
           </div>
         </div>
 
@@ -153,7 +135,7 @@
           <div class="child">
             <img src="images/two.png" />
             <h3>Check Overall Car Maintenance</h3>
-            <a href="#">Read More</a>
+            <a href="#" class="readmore">Read More</a>
           </div>
         </div>
 
@@ -161,7 +143,7 @@
           <div class="child">
             <img src="images/three.png" />
             <h3>Check Availablity of First Aid Box</h3>
-            <a href="#">Read More</a>
+            <a href="#" class="readmore">Read More</a>
           </div>
         </div>
 
@@ -169,7 +151,7 @@
           <div class="child">
             <img src="images/four.png" />
             <h3>Legality of Fitted LPG Cylinder</h3>
-            <a href="#">Read More</a>
+            <a href="#" class="readmore">Read More</a>
           </div>
         </div>
 
@@ -177,7 +159,7 @@
           <div class="child">
             <img src="images/five.png" />
             <h3>Logo with hologram on Windscreen</h3>
-            <a href="#">Read More</a>
+            <a href="#" class="readmore">Read More</a>
           </div>
         </div>
 
@@ -185,7 +167,7 @@
           <div class="child">
             <img src="images/six.png" />
             <h3>Check Driver's Valid Driving License</h3>
-            <a href="#">Read More</a>
+            <a href="#" class="readmore">Read More</a>
           </div>
         </div>
 
@@ -193,7 +175,7 @@
           <div class="child">
             <img src="images/seven.png" />
             <h3>Check Child's Seat Ratio</h3>
-            <a href="#">Read More</a>
+            <a href="#" class="readmore">Read More</a>
           </div>
         </div>
 
@@ -201,11 +183,43 @@
           <div class="child">
             <img src="images/eight.png" />
             <h3>Check Availablity of Attendant</h3>
-            <a href="#">Read More</a>
+            <a href="#" class="readmore">Read More</a>
           </div>
         </div>
       </div>
     </div>
+
+
+   <!------------------------TESTIMONIAL------------------->
+
+   <div id="testimonial">
+
+    <h3>Reviewed by Parents</h3>
+    <h2>Our Testimonial</h2>
+
+    <p>Testimonial are honest endorsement of our service that usually comes from parents who have benefited <br>from or experienced satisfaction as a result of our services for them.</p>
+   
+
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+    </div>
+  </div>
+
+
+
 
     <!------------------------FOOTER------------------->
 
@@ -266,41 +280,30 @@
       </div>
     </footer>
 
-    <!-- 
-          REGISTER:
-          1.School Name
-          2.Pickup Location
-          3. Search -->
+   
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
 
+
+    
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    ></script>
+    
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
       integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
     <!-- <scrip src="js/myscript.js"></scrip> -->
 
     <script>
@@ -321,5 +324,6 @@
         },
       });
     </script>
+
   </body>
 </html>
