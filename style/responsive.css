@@ -1,38 +1,32 @@
 /* ==========================================1030======================== */
 
 @media only screen and (max-width: 1030px) {
-  
-  
 
-
-
-  .banner-box {
+  #banner .banner-box {
     position: absolute;
     top: 12rem;
     right: 80px;
-    width: 40%;
-  }
-  .find-box {
-    padding: 0 20px;
-  }
+    width: 39%;
+  } 
 
-  .find-box .child {
-    border: 2px solid var(--green-deep);
-    padding: 40px;
-  }
 
-  .find-box .child h3 {
-    font-size: 20px;
-    line-height: 25px;
+  #poolcarselect {
+    padding: 3rem 5rem;
+  }
+  #poolcarselect .child h3 {font-size: 18px;
+  line-height: 22px;
+  }
+  .readmore {font-size: 15px;
+    line-height: 20px;
   }
 
-.register {
-    width: 100%;
-}
-.register .footer-contact {
-    padding: 12px 36px;
-   }
 
+  .register {
+    width: 118%;}
+
+    .footer-box .footer-contact-box {
+      padding: 0 0 0 39px;
+  }
 
 
 
@@ -41,26 +35,49 @@
 /* ==========================================770======================== */
 
 @media only screen and (max-width: 770px) {
-  .find-box .child {
-    border: 2px solid var(--green-deep);
-    padding: 40px;
-  }
 
-  .find-box .child h3 {
-    font-size: 18px;
-    line-height: 22px;
-  }
 
-  .findcar-btn {
-    font-size: 15px;
-    line-height: 20px;
-    padding: 10px 35px;
+  .form-area {
+    padding:80px 80px 80px 20px;
+
   }
+  #testimonial {
+    min-height:400px;
+  }
+  .child-social{margin: 20px 0 0 0;}
+
+  .footer-box .child ul {
+    margin: 25px 0 0 0;
+    
+}
+
 }
 
 /* ==========================================740======================== */
 
 @media only screen and (max-width: 740px) {
+
+  .form-area {
+    padding:20px 80px 80px 80px;
+  }
+  form select {margin:0 0 15px 0;
+  }
+  #find-btn{display: table;
+  margin:0 auto;
+}
+
+.footer-box {
+  padding: 0 30px;
+}
+.register {
+  width: 99%;
+}
+
+.footer-box .footer-contact-box {
+  padding: 20px 0 20px 15px;
+}
+
+
 }
 
 /* ==========================================670======================== */
@@ -71,13 +88,68 @@
 /* ==========================================420======================== */
 
 @media only screen and (max-width: 420px) {
-  #findcar h1 {
-    font-size: 22px;
-    line-height: 35px;
-  }
+
+
+  #banner .banner-box {
+    position: absolute;
+    top: 7rem;
+    right: 46px;
+    width: 70%;
 }
+
+#banner .banner-box h2 {font-size:18px;
+line-height: 20px;
+  }
+  
+.car-heading {font-size: 24px;
+    line-height: 30px;
+  }
+ 
+  #poolcarselect h2 {
+font-size:21px;
+line-height:5px;
+  }
+  #poolcarselect {
+    padding: 1rem 1rem;
+}
+#poolcarselect .child {
+  margin: 25px 0 0 0;
+  }
+
+  #poolcarselect .oval {
+    width: 130px;
+    height: 130px;
+  }
+  #testimonial p { font-size: 15px;
+    line-height: 20px;
+    padding: 0 15px;
+}
+
+#testimonial h2 {
+  font-size:26px;
+  line-height:25px;
+}
+
+#testimonial .owl-carousel {
+  padding: 0 40px;
+  margin-top: 2rem;
+}
+
+#testimonial .owl-theme .owl-dots .owl-dot span {
+  width: 6px;
+  height: 6px;
+  margin: 9px 4px;
+}
+
+
+
+
+
+
+
+} 
 
 /* ==========================================380======================== */
 
-@media only screen and (max-width: 380px) {
-}
+@media only screen and (max-width: 380px) {}
+

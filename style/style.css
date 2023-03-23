@@ -16,6 +16,7 @@ font-family: 'Nunito', sans-serif; */
   --selectborder: #fcfdff;
   --form-text: #bdbdbd;
   --bg:#f5f5f5;
+  --oval:#8bb346;
 }
 
 * {
@@ -81,7 +82,7 @@ header .nav ul a:hover {
   height:auto;
   border-radius: 2px;
   border: 1px solid var(--green-deep);
-  padding: 30px 20px;
+  padding: 50px 20px 50px 20px;
   display: block;
   border-radius: 10px;
 }
@@ -94,7 +95,20 @@ header .nav ul a:hover {
 }
 .banner-logo {
   width: 70px;
+} 
+
+
+.banner-object h2 {
+  font: 600 20px/28px "Nunito", sans-serif;
+  color: var(--black);
+  text-align: center;
+  padding: 15px 0;
 }
+.banner-logo {
+  width: 70px;
+} 
+
+
 .banner-box div {
   width: 100%;
   text-align: center;
@@ -104,16 +118,20 @@ header .nav ul a:hover {
   margin: 0 0 80px 0;
 }
 
+
+
 .banner-box div select {
   width: 100%;
-  margin: 0 0 20px 0;
-  outline: none;
-  font: 600 15px/20px "Nunito", sans-serif;
-  border: 1px solid var(--black);
+  height: 50px;
+  background: var(--white);
+  border: none;
   border-radius: 40px;
-  color: var(--black);
-  height: 45px;
-  padding: 0 20px;
+  font: 400 15px/20px "Montserrat", sans-serif;
+  color: var(--form-text);
+  border-right: 16px solid transparent;
+  padding: 0px 20px;
+  outline: none;
+  margin: 0 0 20px 0;
 }
 
 .banner-box-btn {
@@ -139,10 +157,6 @@ header .nav ul a:hover {
 }
 
 /* ================================FIND POOL CAR================================== */
-
-#findcar {
-  padding: 3rem 0;
-}
 
 .car-heading {
   font: 800 35px/40px "Nunito", sans-serif;
@@ -192,10 +206,11 @@ form select {
 
 /* ================================TESTIMONIAL================================== */
 
+
 #testimonial {
   background:url(../images/testibg.jpg) no-repeat 50% 50%;
-  background-size: cover;
-  min-height: 550px;
+  background-size:cover;
+  min-height:500px;
 }
 
 #testimonial h2 {
@@ -227,6 +242,17 @@ form select {
 }
 #poolcarselect h2 {
   text-align: center;
+  font: 700 35px/25px "Nunito", sans-serif;
+  color: var(--black);
+  padding: 20px 0;
+}
+
+#poolcarselect .oval{width:150px;
+height: 150px;
+background:var(--oval);
+border-radius: 57% 43% 38% 62% / 60% 62% 38% 40% ;
+text-align: center;
+padding:30px 0 0 20px;
 }
 
 #poolcarselect .child {
@@ -267,13 +293,6 @@ form select {
   
 
 
-
-
-
-
-
-
-
 /* ================================FOOTER================================== */
 
 footer {
@@ -281,7 +300,7 @@ footer {
   padding: 5rem 0 2rem 0;
 }
 .footer-box {
-  padding: 0 80px;
+  padding: 0 60px;
 }
 .footer-box .child p {
   font: 500 15px/20px "Montserrat", sans-serif;
@@ -301,9 +320,7 @@ footer {
 .footer-box .child ul li {
   margin: 20px 0 0 0;
 }
-/* .footer-box .child ul li span{font:600 20px/20px 'Montserrat', sans-serif;
-    color: var(--white);
-padding: 0 0 0 10px;} */
+
 
 .footer-box .child ul li a i {
   font-size: 35px;
@@ -368,6 +385,8 @@ padding: 0 0 0 10px;} */
   padding: 0 0 0 80px;
 }
 
+
+
 /* =================================VENDOR PAGE================================ */
 #vendordetail {
   padding: 10rem 0;
@@ -426,3 +445,16 @@ position: absolute;
 top:-37px;
 right: -5px;
   }
+
+#vendordetail  .route{font: 500 15px/17px "Montserrat", sans-serif;
+  color:var(--black);
+  padding: 0 0 0 6px;}
+
+
+.bxs-phone span{font: 600 18px/22px "Montserrat", sans-serif;
+  color:var(--black);
+}
+
+.bxl-whatsapp span{font: 600 18px/22px "Montserrat", sans-serif;
+  color:var(--black);
+}
