@@ -1,83 +1,90 @@
 /* ==========================================1030======================== */
 
 @media only screen and (max-width: 1030px) {
-
   #banner .banner-box {
     position: absolute;
     top: 12rem;
     right: 80px;
     width: 39%;
-  } 
-
+  }
 
   #poolcarselect {
     padding: 3rem 5rem;
   }
-  #poolcarselect .child h3 {font-size: 18px;
-  line-height: 22px;
+  #poolcarselect .child h3 {
+    font-size: 18px;
+    line-height: 22px;
   }
-  .readmore {font-size: 15px;
+  .readmore {
+    font-size: 15px;
     line-height: 20px;
   }
 
-
   .register {
-    width: 118%;}
-
-    .footer-box .footer-contact-box {
-      padding: 0 0 0 39px;
+    width: 118%;
   }
 
+  .footer-box .footer-contact-box {
+    padding: 0 0 0 39px;
+  }
 
+  #vendordetail {
+    padding: 15rem 1rem 18px 1rem;
+  }
 
+  #vendordetail .child .vendor-text .call-now {
+    top: 18rem;
+    left: 4rem;
+  }
 }
 
 /* ==========================================770======================== */
 
 @media only screen and (max-width: 770px) {
-
-
   .form-area {
-    padding:80px 80px 80px 20px;
-
+    padding: 80px 80px 80px 20px;
   }
   #testimonial {
-    min-height:400px;
+    min-height: 400px;
   }
-  .child-social{margin: 20px 0 0 0;}
+  .child-social {
+    margin: 20px 0 0 0;
+  }
 
   .footer-box .child ul {
     margin: 25px 0 0 0;
-    
-}
+  }
 
+  #vendordetail .child .vendor-text .call-now {
+    top: 10rem;
+    left: 30rem;
+  }
 }
 
 /* ==========================================740======================== */
 
 @media only screen and (max-width: 740px) {
-
   .form-area {
-    padding:20px 80px 80px 80px;
+    padding: 20px 80px 80px 80px;
   }
-  form select {margin:0 0 15px 0;
+  form select {
+    margin: 0 0 15px 0;
   }
-  #find-btn{display: table;
-  margin:0 auto;
-}
+  #find-btn {
+    display: table;
+    margin: 0 auto;
+  }
 
-.footer-box {
-  padding: 0 30px;
-}
-.register {
-  width: 99%;
-}
+  .footer-box {
+    padding: 0 30px;
+  }
+  .register {
+    width: 99%;
+  }
 
-.footer-box .footer-contact-box {
-  padding: 20px 0 20px 15px;
-}
-
-
+  .footer-box .footer-contact-box {
+    padding: 20px 0 20px 15px;
+  }
 }
 
 /* ==========================================670======================== */
@@ -88,68 +95,87 @@
 /* ==========================================420======================== */
 
 @media only screen and (max-width: 420px) {
-
-
   #banner .banner-box {
     position: absolute;
     top: 7rem;
     right: 46px;
     width: 70%;
-}
-
-#banner .banner-box h2 {font-size:18px;
-line-height: 20px;
   }
-  
-.car-heading {font-size: 24px;
+
+  #banner .banner-box h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .car-heading {
+    font-size: 24px;
     line-height: 30px;
   }
- 
+
   #poolcarselect h2 {
-font-size:21px;
-line-height:5px;
+    font-size: 21px;
+    line-height: 5px;
   }
   #poolcarselect {
     padding: 1rem 1rem;
-}
-#poolcarselect .child {
-  margin: 25px 0 0 0;
+  }
+  #poolcarselect .child {
+    margin: 25px 0 0 0;
   }
 
   #poolcarselect .oval {
     width: 130px;
     height: 130px;
   }
-  #testimonial p { font-size: 15px;
+  #testimonial p {
+    font-size: 15px;
     line-height: 20px;
     padding: 0 15px;
+  }
+
+  #testimonial h2 {
+    font-size: 26px;
+    line-height: 25px;
+  }
+
+  #testimonial .owl-carousel {
+    padding: 0 40px;
+    margin-top: 2rem;
+  }
+
+  #testimonial .owl-theme .owl-dots .owl-dot span {
+    width: 6px;
+    height: 6px;
+    margin: 9px 4px;
+  }
+
+  #vendordetail .child {
+    display: block;
+  }
+  #vendordetail .vendor {
+    width: 100%;
+  }
+  #vendordetail .vendor img {
+    width: 200px;
+  }
+  #vendordetail .vendor-text {
+    width: 100%;
+  }
+
+  #vendordetail .child .vendor-text .call-now {
+    top: 33.5rem;
+    left: 8rem;
+  }
+
+  #vendordetail .child {
+    padding: 40px 40px 70px 20px;
+  }
+  #vendordetail .vendor-text {
+    padding: 10px 0 0 10px;
+  }
 }
-
-#testimonial h2 {
-  font-size:26px;
-  line-height:25px;
-}
-
-#testimonial .owl-carousel {
-  padding: 0 40px;
-  margin-top: 2rem;
-}
-
-#testimonial .owl-theme .owl-dots .owl-dot span {
-  width: 6px;
-  height: 6px;
-  margin: 9px 4px;
-}
-
-
-
-
-
-
-
-} 
 
 /* ==========================================380======================== */
 
-@media only screen and (max-width: 380px) {}
-
+@media only screen and (max-width: 380px) {
+}
