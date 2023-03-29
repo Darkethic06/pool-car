@@ -1,34 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>PCOWA</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- Boxicon-->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <title>PCOWA</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" type="text/css" href="./style/style.css" />
-    <link rel="stylesheet" type="text/css" href="/style/responsive.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- Boxicon-->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="stylesheet" type="text/css" href="./style/style.css" />
+  <link rel="stylesheet" type="text/css" href="/style/responsive.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link
       rel="stylesheet"
@@ -57,265 +47,273 @@
       </nav>
       </header>
 
-    <!------------------------BANNER------------------->
+  <!------------------------BANNER------------------->
 
-    <div id="banner">
-      <div class="banner-box">
-        <center><p class="banner-logo"><img src="images/logo.png"/></p></center>
-        <h2>Select your School and Pickup location</h2>
+  <div id="banner">
+    <div class="banner-box">
+      <center>
+        <p class="banner-logo"><img src="images/logo.png" /></p>
+      </center>
+      <h2>Select your School and Pickup location</h2>
 
-        <div>
-          <form>
-            <select name="cars" id="cars">
-              <option value="volvo" disabled selected>School Name</option>
-              <option value="saab">South Point Morning</option>
-              <option value="mercedes">South Point Day</option>
-              <option value="audi">South Point Afternoon</option>
-            </select>
+      <div>
+        <form>
+          <select name="cars" id="cars">
+            <option value="volvo" disabled selected>School Name</option>
+            <option value="saab">South Point Morning</option>
+            <option value="mercedes">South Point Day</option>
+            <option value="audi">South Point Afternoon</option>
+          </select>
 
-            <select name="cars" id="cars pickup">
-              <option value="volvo" disabled selected>Pickup Location</option>
-              <option value="saab">Dumdum</option>
-              <option value="mercedes">Bhowanipur</option>
-              <option value="audi">Behala</option>
-            </select>
+          <select name="cars" id="cars pickup">
+            <option value="volvo" disabled selected>Pickup Location</option>
+            <option value="saab">Dumdum</option>
+            <option value="mercedes">Bhowanipur</option>
+            <option value="audi">Behala</option>
+          </select>
 
-            <button type="submit" class="banner-box-btn">SEARCH</button>
-          </form>
+          <button type="submit" class="banner-box-btn">SEARCH</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------FIND POOL CAR------------------->
+
+  <div class="container form-area my-5">
+    <h1 class="text-center car-heading">Find your Pool Car</h1>
+    <form action="">
+      <div class="row mx-auto">
+        <div class="col-lg-5 col-md-5 col-sm-12">
+          <label> <i class="bx bxs-school"></i> Select School</label>
+          <select name="cars" id="cars">
+            <option value="volvo" disabled selected>School Name</option>
+            <option value="saab">South Point Morning</option>
+            <option value="mercedes">South Point Day</option>
+            <option value="audi">South Point Afternoon</option>
+          </select>
+        </div>
+
+        <div class="col-lg-5 col-md-5 col-sm-12">
+          <label><i class="bx bx-map"></i>Pickup Location</label>
+          <select name="cars" id="cars">
+            <option value="0" disabled selected>Pickup Location</option>
+            <option value="saab">Dumdum</option>
+            <option value="mercedes">Bhowanipur</option>
+            <option value="audi">Behala</option>
+          </select>
+        </div>
+        <div class="col-lg-2 col-md-2 col-12">
+          <a href="#" class="banner-box-btn" id="find-btn">SEARCH</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!------------------------HOW TO SELECT THE RIGHT POOL CAR------------------->
+  <div id="poolcarselect">
+    <h2>How to Select The Right Pool Car</h2>
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="child text-center">
+          <p class="oval mx-auto">
+            <img src="images/i1-legal permit holder.png" />
+          </p>
+          <h3>Check Legal Operation Permit</h3>
+          <a href="#" class="readmore">Read More</a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="child">
+          <p class="oval mx-auto">
+            <img src="images/i2-Check Overall Car Maintenance.png" />
+          </p>
+          <h3>Check Overall Car Maintenance</h3>
+          <a href="#" class="readmore">Read More</a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="child">
+          <p class="oval mx-auto">
+            <img src="images/i3-Check Availablity of First Aid Box.png" />
+          </p>
+          <h3>Check Availablity of First Aid Box</h3>
+          <a href="#" class="readmore">Read More</a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="child">
+          <p class="oval mx-auto">
+            <img src="images/i4-Confirm Legality of Fitted LPG Cylinder.png" />
+          </p>
+          <h3>Legality of Fitted LPG Cylinder</h3>
+          <a href="#" class="readmore">Read More</a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="child">
+          <p class="oval mx-auto">
+            <img src="images/i5-Logo with hologram on Windscreen.png" />
+          </p>
+          <h3>Logo with hologram on Windscreen</h3>
+          <a href="#" class="readmore">Read More</a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="child">
+          <p class="oval mx-auto">
+            <img src="images/i6-Driver's Valid Driving License.png" />
+          </p>
+          <h3>Check Driver's Valid Driving License</h3>
+          <a href="#" class="readmore">Read More</a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="child">
+          <p class="oval mx-auto">
+            <img src="images/i7-Check Child's Seat Ratio.png" />
+          </p>
+          <h3>Check Child's Seat Ratio</h3>
+          <a href="#" class="readmore">Read More</a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="child">
+          <p class="oval mx-auto">
+            <img src="images/i8-Check Availablity of Attendant.png" />
+          </p>
+          <h3>Check Availablity of Attendant</h3>
+          <a href="#" class="readmore">Read More</a>
         </div>
       </div>
     </div>
+  </div>
 
-    <!------------------------FIND POOL CAR------------------->
+  <!------------------------TESTIMONIAL------------------->
 
-    <div class="container form-area my-5">
-      <h1 class="text-center car-heading">Find your Pool Car</h1>
-      <form action="">
-        <div class="row mx-auto">
-          <div class="col-lg-5 col-md-5 col-sm-12">
-            <label> <i class="bx bxs-school"></i> Select School</label>
-            <select name="cars" id="cars">
-              <option value="volvo" disabled selected>School Name</option>
-              <option value="saab">South Point Morning</option>
-              <option value="mercedes">South Point Day</option>
-              <option value="audi">South Point Afternoon</option>
-            </select>
-          </div>
+  <div id="testimonial">
+    <h3>Reviewed by Parents</h3>
+    <h2>Our Testimonial</h2>
 
-          <div class="col-lg-5 col-md-5 col-sm-12">
-            <label><i class="bx bx-map"></i>Pickup Location</label>
-            <select name="cars" id="cars">
-              <option value="0" disabled selected>Pickup Location</option>
-              <option value="saab">Dumdum</option>
-              <option value="mercedes">Bhowanipur</option>
-              <option value="audi">Behala</option>
-            </select>
-          </div>
-          <div class="col-lg-2 col-md-2 col-12">
-            <a href="#" class="banner-box-btn" id="find-btn">SEARCH</a>
-          </div>
-        </div>
-      </form>
+    <p>
+      Testimonial are honest endorsement of our service that usually comes
+      from parents who have benefited <br />from or experienced satisfaction
+      as a result of our services for them.
+    </p>
+
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
+      <div class="item"><img src="images/Testi 01.png" /></div>
     </div>
+  </div>
 
-    <!------------------------HOW TO SELECT THE RIGHT POOL CAR------------------->
-    <div id="poolcarselect">
-      <h2>How to Select The Right Pool Car</h2>
+  <!------------------------FOOTER------------------->
 
+  <footer>
+    <div class="footer-box">
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-6">
-          <div class="child text-center">
-            <p class="oval mx-auto">
-              <img src="images/i1-legal permit holder.png" />
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="child">
+            <img src="images/logo-white.png" />
+            <p>
+              It is a long established fact that a reader will be
+              <br />distracted by the readable ust explain to you how
+              <br />all this mistaken idea of denouncing pleasure
             </p>
-            <h3>Check Legal Operation Permit</h3>
-            <a href="#" class="readmore">Read More</a>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 col-6">
+        <div class="col-lg-4 col-md-6 col-sm-12 footer-contact-box">
           <div class="child">
-            <p class="oval mx-auto">
-              <img src="images/i2-Check Overall Car Maintenance.png" />
-            </p>
-            <h3>Check Overall Car Maintenance</h3>
-            <a href="#" class="readmore">Read More</a>
+            <h4>Contact Us</h4>
+            <ul>
+              <li>
+                <a href="#"><i class="bx bxs-phone"></i>+91 99999 88888</a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxs-envelope"></i>email@abc.com</a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-whatsapp"></i>+91 99999 88888</a>
+              </li>
+            </ul>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 col-6">
-          <div class="child">
-            <p class="oval mx-auto">
-              <img src="images/i3-Check Availablity of First Aid Box.png" />
-            </p>
-            <h3>Check Availablity of First Aid Box</h3>
-            <a href="#" class="readmore">Read More</a>
-          </div>
-        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="child text-center child-social">
+            <div class="register">
+              <h5>Find Your Carpool Partner</h5>
+              <a href="#" class="footer-contact">Contact Now</a>
+            </div>
 
-        <div class="col-lg-3 col-md-6 col-6">
-          <div class="child">
-            <p class="oval mx-auto">
-              <img
-                src="images/i4-Confirm Legality of Fitted LPG Cylinder.png"
-              />
-            </p>
-            <h3>Legality of Fitted LPG Cylinder</h3>
-            <a href="#" class="readmore">Read More</a>
+            <ul class="footer-social">
+              <li>
+                <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+              </li>
+            </ul>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-3 col-md-6 col-6">
-          <div class="child">
-            <p class="oval mx-auto">
-              <img src="images/i5-Logo with hologram on Windscreen.png" />
-            </p>
-            <h3>Logo with hologram on Windscreen</h3>
-            <a href="#" class="readmore">Read More</a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-6">
-          <div class="child">
-            <p class="oval mx-auto">
-              <img src="images/i6-Driver's Valid Driving License.png" />
-            </p>
-            <h3>Check Driver's Valid Driving License</h3>
-            <a href="#" class="readmore">Read More</a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-6">
-          <div class="child">
-            <p class="oval mx-auto">
-              <img src="images/i7-Check Child's Seat Ratio.png" />
-            </p>
-            <h3>Check Child's Seat Ratio</h3>
-            <a href="#" class="readmore">Read More</a>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-6">
-          <div class="child">
-            <p class="oval mx-auto">
-              <img src="images/i8-Check Availablity of Attendant.png" />
-            </p>
-            <h3>Check Availablity of Attendant</h3>
-            <a href="#" class="readmore">Read More</a>
-          </div>
-        </div>
+      <div class="copyright">
+        <p>Copyright © 2023 PCOWA. All Rights Reserved</p>
       </div>
     </div>
+  </footer>
 
-    <!------------------------TESTIMONIAL------------------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
-    <div id="testimonial">
-      <h3>Reviewed by Parents</h3>
-      <h2>Our Testimonial</h2>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-      <p>
-        Testimonial are honest endorsement of our service that usually comes
-        from parents who have benefited <br />from or experienced satisfaction
-        as a result of our services for them.
-      </p>
-
-      <div class="owl-carousel owl-theme">
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-        <div class="item"><img src="images/Testi 01.png" /></div>
-      </div>
-    </div>
-
-    <!------------------------FOOTER------------------->
-
-    <footer>
-      <div class="footer-box">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="child">
-              <img src="images/logo-white.png" />
-              <p>
-                It is a long established fact that a reader will be
-                <br />distracted by the readable ust explain to you how
-                <br />all this mistaken idea of denouncing pleasure
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 footer-contact-box">
-            <div class="child">
-              <h4>Contact Us</h4>
-              <ul>
-                <li>
-                  <a href="#"><i class="bx bxs-phone"></i>+91 99999 88888</a>
-                </li>
-                <li>
-                  <a href="#"><i class="bx bxs-envelope"></i>email@abc.com</a>
-                </li>
-                <li>
-                  <a href="#"><i class="bx bxl-whatsapp"></i>+91 99999 88888</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="child text-center child-social">
-              <div class="register">
-                <h5>Find Your Carpool Partner</h5>
-                <a href="#" class="footer-contact">Contact Now</a>
-              </div>
-
-              <ul class="footer-social">
-                <li>
-                  <a href="#"><i class="bx bxl-facebook-circle"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="bx bxl-twitter"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="copyright">
-          <p>Copyright © 2023 PCOWA. All Rights Reserved</p>
-        </div>
-      </div>
-    </footer>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/myscript.js"></script>
 
 
-
-<script src="js/myscript.js"></script>
-
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
