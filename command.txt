@@ -1,3 +1,0 @@
-git add .
-git commit -m "subhas/"
-git push -u origin subhas 
