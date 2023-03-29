@@ -475,3 +475,131 @@ footer {
 #vendordetail .vendor-text .bxl-whatsapp {
   padding: 0 0 20px 0;
 }
+
+
+
+/* =================================ABOUT PAGE================================ */
+
+
+#inbanner {
+  background:url(../images/Bannerabout03.jpg);
+  min-height:400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+} 
+
+#inbanner .inbanner-text {position: absolute;
+  top:14rem;
+  left:44rem;
+}
+#inbanner h1{font: 700 35px/40px "Nunito", sans-serif;
+  color:var(--white);
+}
+
+#inabout{margin: 5rem 0;
+  padding:0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+#inabout .inabout-text{padding: 0 0 0 50px;
+}
+#inabout .inabout-text h2{font:700 30px/40px "Nunito", sans-serif;
+  color:var(--black);
+  padding: 0 0 15px 0;
+}
+#inabout .inabout-text h2 span{color: var(--greenlight);
+}
+#inabout .inabout-text p{ font: 500 16px/20px "Nunito", sans-serif;
+  color: var(--black);
+  text-align:left;
+}
+
+
+
+/* =================================CONTACT PAGE================================ */
+
+
+#incontactbanner {
+  background:url(../images/Bannercontact.jpg);
+  min-height:400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+} 
+
+#incontactbanner .inbanner-text {position: absolute;
+  top:14rem;
+  left:44rem;
+}
+
+#incontactbanner .inbanner-text h1{font: 700 35px/40px "Nunito", sans-serif;
+  color:var(--white);
+}
+
+#incontact{padding: 6rem 5rem;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#incontact  .map{width: 50%;
+margin:0 40px 0 0;
+}
+
+#incontact .form-part{background:#fff;
+width: 50%;
+box-shadow: 2px 2px 12px #dcdcdc;
+}
+
+#incontact .form-part .form-area{width:100%;
+}
+
+#incontact .form-part .form-area h2{font: 700 35px/40px "Nunito", sans-serif;
+  color:var(--grey);
+  text-align: center;
+}
+
+#incontact .form-part .form-area form input{width: 100%;
+font: 400 14px/22px "Montserrat", sans-serif;
+color:var(--grey);
+height: 50px;
+padding: 0 0 0 15px;
+background: var(--white);
+border-radius: 40px;
+border: none;
+margin: 15px 0 0 0;
+outline: none;
+}
+#incontact .form-part .form-area form textarea{width: 100%;
+  height: 50px;
+  font: 400 14px/22px "Montserrat", sans-serif;
+color:var(--grey);
+height: 100px;
+padding:16px 0 0 18px;
+background: var(--white);
+border-radius: 40px;
+border: none;
+margin: 15px 0 0 0;
+outline: none;
+  }
+  #incontact .form-part .form-area .incontact-btn{
+    font: 700 16px/20px "Nunito", sans-serif;
+    color: var(--black);
+    background-image: linear-gradient(
+      to right top,
+      #fcac44,
+      #fba342,
+      #fb9b41,
+      #f99240,
+      #f88940
+    );
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    box-shadow: 2px 2px 8px #888888;
+    margin:20px auto;
+    display: table;
+    border: none;
+  }
