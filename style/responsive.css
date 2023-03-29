@@ -39,6 +39,10 @@
     padding: 0 0 0 39px;
   }
 
+
+
+  /*========== VENDOR PAGE========= */
+
   #vendordetail {
     padding: 15rem 1rem 18px 1rem;
   }
@@ -47,6 +51,8 @@
     top: 18rem;
     left: 4rem;
   }
+
+  /*========== ABOUT PAGE========= */
 
   #inbanner .inbanner-text {position: absolute;
     top:12rem;
@@ -65,6 +71,8 @@
   #inabout .inabout-pic img {
     margin: 0 0 3rem 7rem;
 }
+
+/*========== CONTACT PAGE========= */
 
 #incontact {
   padding: 6rem 2rem;
@@ -102,11 +110,14 @@
     margin: 25px 0 0 0;
   }
 
+/*========== VENDOR PAGE========= */
+
   #vendordetail .child .vendor-text .call-now {
     top: 10rem;
     left: 30rem;
   }
 
+  /*========== ABOUT PAGE========= */
 
   #inbanner .inbanner-text {position: absolute;
     top:12rem;
@@ -117,6 +128,7 @@
     margin: 0 0 3rem 0rem;
 }
 
+/*========== CONTACT PAGE========= */
 
 #incontactbanner .inbanner-text  {position: absolute;
   top:12rem;
@@ -155,6 +167,7 @@
     padding: 20px 0 20px 15px;
   }
 
+  /*========== ABOUT PAGE========= */
 
   #inabout .inabout-pic img {
     margin: 0px 0px 3rem 0rem;
@@ -167,6 +180,9 @@
 /* ==========================================670======================== */
 
 @media only screen and (max-width: 670px) {
+
+
+/*========== ABOUT PAGE========= */
 
   #inabout .inabout-pic img {
     margin: 0px 0px 3rem 0rem;
@@ -271,6 +287,9 @@
     margin: 9px 4px;
   }
 
+
+/*========== VENDOR PAGE========= */
+
   #vendordetail .child {
     display: block;
   }
@@ -297,6 +316,8 @@
   }
 
 
+  /*========== ABOUT PAGE========= */
+
   #inbanner {
     min-height: 331px;
   }
@@ -322,6 +343,9 @@
     line-height: 35px;
   }
   
+
+/*========== CONTACT PAGE========= */
+
   #incontactbanner .inbanner-text {position: absolute;
     top:12rem;
     left:9rem;
@@ -344,6 +368,7 @@
 
 @media only screen and (max-width: 380px) {
 
+  /*========== ABOUT PAGE========= */
 
   #inabout .inabout-pic img {
     width: 340px;
@@ -391,14 +416,14 @@
   padding: 20px 20px 20px 10px;
 }
 
-
+/*========== VENDOR PAGE========= */
 
 #vendordetail .child .vendor-text .call-now {
   top: 33.5rem;
   left: 7rem;
 }
 
-
+/*========== ABOUT PAGE========= */
 
 #inbanner .inbanner-text {position: absolute;
   top:12rem;
@@ -410,7 +435,7 @@
   height: 262px;
 }
 
-
+/*========== CONTACT PAGE========= */
 
 #incontactbanner .inbanner-text {position: absolute;
   top:12rem;
