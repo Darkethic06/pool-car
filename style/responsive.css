@@ -31,6 +31,17 @@
     line-height: 20px;
   }
 
+  #testimonial .custom-testi .bxs-quote-right{
+    top: 10rem;
+    left:15rem;
+    }
+    #testimonial .custom-testi .user-name{
+      top:14rem;
+      left:8rem;
+    }
+
+
+
   .register {
     width: 118%;
   }
@@ -286,6 +297,23 @@
     height: 6px;
     margin: 9px 4px;
   }
+
+  #testimonial .custom-testi .user-name{
+    top:14rem;
+    left:9rem;
+  }
+  #testimonial .custom-testi .user-name h4{font-size: 16px;
+    line-height: 10px;
+  }
+  #testimonial .custom-testi .user-name h6{font-size: 13px;
+    line-height: 18px;
+  }
+
+
+
+
+
+
 
 
 /*========== VENDOR PAGE========= */

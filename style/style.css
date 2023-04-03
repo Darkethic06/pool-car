@@ -20,6 +20,8 @@ font-family: 'Nunito', sans-serif; */
   --vendorbox: #f3f3f3;
   --rating: #ffda2c;
   --header-bg:#8ff497;
+  --testi-quote:#ff8924;
+  --grey2:#575757;
 }
 
 * {
@@ -299,6 +301,43 @@ form select {
   margin-top: 5rem;
 }
 
+#testimonial .custom-testi{background:var(--white);
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid var(--grey);
+  position: relative;
+  }
+  
+  #testimonial .custom-testi .bxs-quote-left{color:var(--testi-quote);
+  font-size:35px;
+  }
+  #testimonial .custom-testi .bxs-quote-right{color:var(--testi-quote);
+    font-size:35px;
+    position: absolute;
+    top: 10rem;
+    left: 25rem;
+    }
+  #testimonial .custom-testi p{ font: 500 16px/20px "Nunito", sans-serif;
+    color: var(--black);
+    text-align: left;
+    }
+    #testimonial .custom-testi .user img{width:100px;
+    height:100px;
+  background: var(--rating);
+  border-radius: 50px;
+  border: 1px solid var(--grey);
+  }
+  #testimonial .custom-testi .user-name{position: absolute;
+    top:11rem;
+    left:8rem;
+  }
+  #testimonial .custom-testi .user-name h4{font: 700 20px/10px "Nunito", sans-serif;
+      color:var(--black);
+    }
+    #testimonial .custom-testi .user-name h6{font: 700 16px/20px "Nunito", sans-serif;
+      color:var(--grey2);
+    }
+  
 
 
 /* ================================FOOTER================================== */
