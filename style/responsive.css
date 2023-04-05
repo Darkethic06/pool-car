@@ -96,8 +96,15 @@
 #incontact .form-area {
   padding: 60px 40px 60px 40px;
 }
+/*==========GALLERY PAGE========= */
 
 
+#ingallerybanner .inbanner-text {position: absolute;
+  top:12rem;
+  left:26rem;
+}  
+#ingallery .child img{width:235px;
+}
 
 }
 
@@ -151,6 +158,19 @@
 }
 
 
+/*========== GALLERY PAGE========= */
+
+
+#ingallery .child img{width:350px;
+}
+
+#ingallerybanner .inbanner-text  {position: absolute;
+  top:12rem;
+  left:18rem;
+  padding: 0 0 0 0px;
+}
+
+
 }
 
 /* ==========================================740======================== */
@@ -186,6 +206,12 @@
     height: 400px;
   }
 
+/*========== GALLERY PAGE========= */
+
+#ingallery .child img{width:290px;
+}
+
+
 }
 
 /* ==========================================670======================== */
@@ -200,6 +226,8 @@
     width: 575px;
     height: 400px;
 }
+
+
 
 }
 
@@ -388,9 +416,17 @@
   margin: 20px 0 0 0;
   }
   
+  /*========== GALLERY PAGE========= */
 
 
-}
+  #ingallerybanner .inbanner-text {position: absolute;
+    top:12rem;
+    left:9rem;
+  }
+
+
+}     
+
 
 /* ==========================================380======================== */
 

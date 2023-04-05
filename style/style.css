@@ -642,3 +642,29 @@ outline: none;
     display: table;
     border: none;
   }
+
+
+  /* =================================GALLERY PAGE================================ */
+
+
+#ingallerybanner{
+  background:url(../images/Bannergallery.jpg);
+  min-height:400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+} 
+
+#ingallerybanner .inbanner-text {position: absolute;
+  top:14rem;
+  left:44rem;
+}
+
+#ingallerybanner .inbanner-text h1{font: 700 35px/40px "Nunito", sans-serif;
+  color:var(--white);
+}
+
+
+
+#ingallery{padding: 6rem 2rem;
+}
