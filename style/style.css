@@ -11,17 +11,19 @@ font-family: 'Nunito', sans-serif; */
   --grey: #101010;
   --banner-box: #efefef;
   --register: #224859;
-  --footer-green: #276e46;
+  --footer-green: #001517;
   --form-area: #efeeee;
   --selectborder: #fcfdff;
   --form-text: #bdbdbd;
   --bg: #f5f5f5;
-  --oval: #8bb346;
+  --oval:#66efff;
   --vendorbox: #f3f3f3;
   --rating: #ffda2c;
-  --header-bg:#8ff497;
+  --header-bg:#040bb3;
   --testi-quote:#ff8924;
   --grey2:#575757;
+  --blue:#040bb3;
+  --red:#700000;
 }
 
 * {
@@ -73,7 +75,7 @@ header{
   }
   
   .nav-bar ul li a:hover{color:var(--white);
-  background:var(--green-deep);
+  background:var(--blue);
   }
 
 
@@ -98,7 +100,7 @@ header{
   height: auto;
   border-radius: 2px;
   border: 1px solid var(--green-deep);
-  padding: 50px 20px 50px 20px;
+  padding: 80px 20px 50px 20px;
   display: block;
   border-radius: 10px;
 }
@@ -111,6 +113,10 @@ header{
 }
 .banner-logo {
   width: 100px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-5rem, -10rem);
 }
 
 .banner-object h2 {
@@ -146,17 +152,11 @@ header{
   margin: 0 0 20px 0;
 }
 
+
 .banner-box-btn {
   font: 700 16px/20px "Nunito", sans-serif;
-  color: var(--black);
-  background-image: linear-gradient(
-    to right top,
-    #fcac44,
-    #fba342,
-    #fb9b41,
-    #f99240,
-    #f88940
-  );
+  color:var(--white);
+  background: var(--red);
   padding: 12px 40px;
   border-radius: 40px;
   text-decoration: none;
@@ -164,8 +164,10 @@ header{
   border: none;
 }
 
+
+
 .banner-box-btn:hover {
-  color: var(--grey);
+  color:var(--white);
 }
 
 /* ================================FIND POOL CAR================================== */
@@ -182,6 +184,7 @@ header{
   margin: auto;
   padding: 60px;
   height: auto;
+  width: 100%;
 }
 
 form select {
@@ -214,6 +217,21 @@ form select {
   position: relative;
   top: 3rem;
 }
+.find-box-btn {
+  font: 700 16px/20px "Nunito", sans-serif;
+  color:var(--white);
+  background:var(--red);
+  padding: 12px 40px;
+  border-radius: 40px;
+  text-decoration: none;
+  box-shadow: 2px 2px 8px #888888;
+  border: none;
+}
+
+.find-box-btn:hover {
+  color:var(--white);
+}
+
 
 /* ================================HOW TO SELECT THE RIGHT POOL CAR================================== */
 
@@ -253,15 +271,8 @@ form select {
 
 .readmore {
   font: 700 16px/20px "Nunito", sans-serif;
-  color: var(--black);
-  background-image: linear-gradient(
-    to right top,
-    #fcac44,
-    #fba342,
-    #fb9b41,
-    #f99240,
-    #f88940
-  );
+  color:var(--white);
+  background:var(--red);
   padding: 10px 20px;
   border-radius: 40px;
   text-decoration: none;
@@ -269,7 +280,7 @@ form select {
 }
 
 .readmore:hover {
-  color: var(--grey);
+  color:var(--white);
 }
 
 /* ================================TESTIMONIAL================================== */
@@ -391,15 +402,8 @@ footer {
 }
 .register .footer-contact {
   font: 700 16px/20px "Nunito", sans-serif;
-  color: var(--black);
-  background-image: linear-gradient(
-    to right top,
-    #fcac44,
-    #fba342,
-    #fb9b41,
-    #f99240,
-    #f88940
-  );
+  color:var(--white);
+  background:var(--red);
   padding: 15px 40px;
   border-radius: 40px;
   text-decoration: none;
@@ -434,7 +438,7 @@ footer {
 /* =================================VENDOR PAGE================================ */
 
 #vendordetail {
-  padding: 10rem 2rem;
+  padding: 8rem 2rem;
 }
 #vendordetail h1 {
   font: 600 30px/40px "Nunito", sans-serif;
@@ -478,15 +482,8 @@ footer {
 
 #vendordetail .child .vendor-text .call-now {
   font: 700 16px/20px "Nunito", sans-serif;
-  color: var(--black);
-  background-image: linear-gradient(
-    to right top,
-    #fcac44,
-    #fba342,
-    #fb9b41,
-    #f99240,
-    #f88940
-  );
+  color:var(--white);
+  background:var(--red);
   padding: 10px 15px;
   border-radius: 40px;
   text-decoration: none;
@@ -548,7 +545,7 @@ footer {
   color:var(--black);
   padding: 0 0 15px 0;
 }
-#inabout .inabout-text h2 span{color: var(--greenlight);
+#inabout .inabout-text h2 span{color:var(--blue);
 }
 #inabout .inabout-text p{ font: 500 16px/20px "Nunito", sans-serif;
   color: var(--black);
@@ -625,15 +622,8 @@ outline: none;
   }
   #incontact .form-part .form-area .incontact-btn{
     font: 700 16px/20px "Nunito", sans-serif;
-    color: var(--black);
-    background-image: linear-gradient(
-      to right top,
-      #fcac44,
-      #fba342,
-      #fb9b41,
-      #f99240,
-      #f88940
-    );
+    color:var(--white);
+    background:var(--red);
     padding: 10px 20px;
     border-radius: 40px;
     text-decoration: none;

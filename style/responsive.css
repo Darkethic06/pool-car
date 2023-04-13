@@ -1,3 +1,57 @@
+
+
+/* ==========================================1440======================== */
+
+@media only screen and (max-width: 1440px) {
+
+  .register .footer-contact {
+    padding: 15px 20px;
+  }
+
+/*========== ABOUT PAGE========= */
+
+#inbanner .inbanner-text {position: absolute;
+  top:13rem;
+  left:42rem;
+}  
+
+#inabout .inabout-pic img {
+  width:500px;
+  height: 500px;
+}
+
+
+/*========== CONTACT PAGE========= */
+
+#incontactbanner .inbanner-text {position: absolute;
+  top:13rem;
+  left:42rem;
+}   
+
+
+/*========== GALLERY PAGE========= */
+
+#ingallerybanner .inbanner-text {position: absolute;
+  top:13rem;
+  left:42rem;
+} 
+
+#ingallery .child img{width:320px;
+}
+
+
+
+/*========== VENDOR PAGE========= */
+
+
+#vendordetail .child .vendor-text .call-now {
+  top: 12rem;
+  left: 30rem;
+}
+
+}
+
+
 /* ==========================================1030======================== */
 
 @media only screen and (max-width: 1030px) {
@@ -40,7 +94,10 @@
       left:8rem;
     }
 
-
+    #testimonial .custom-testi .user-name h4 {
+      font-size: 18px;
+      line-height: 10px;
+  }
 
   .register {
     width: 118%;
@@ -59,14 +116,18 @@
   }
 
   #vendordetail .child .vendor-text .call-now {
-    top: 18rem;
+    top: 17rem;
     left: 4rem;
   }
+
+
+
+
 
   /*========== ABOUT PAGE========= */
 
   #inbanner .inbanner-text {position: absolute;
-    top:12rem;
+    top:14rem;
     left:26rem;
   }  
 
@@ -81,6 +142,7 @@
   }
   #inabout .inabout-pic img {
     margin: 0 0 3rem 7rem;
+    width:650px;
 }
 
 /*========== CONTACT PAGE========= */
@@ -89,7 +151,7 @@
   padding: 6rem 2rem;
 }
 #incontactbanner .inbanner-text {position: absolute;
-  top:12rem;
+  top:14rem;
   left:26rem;
 }  
 
@@ -100,7 +162,7 @@
 
 
 #ingallerybanner .inbanner-text {position: absolute;
-  top:12rem;
+  top:14rem;
   left:26rem;
 }  
 #ingallery .child img{width:235px;
@@ -108,9 +170,67 @@
 
 }
 
+
+/* ==========================================976======================== */
+
+@media only screen and (max-width: 976px) {
+
+  #find-btn {
+    position: relative;
+    top: 3rem;
+    left: 16rem;
+}
+.form-area {
+  padding: 80px 80px 100px 20px;
+}
+
+
+.register {
+  width: 100%;
+  margin: 44px 0 0 0;
+}
+
+
+#testimonial .custom-testi .bxs-quote-right{
+  top: 8rem;
+  left:24rem;
+  }
+  #testimonial .custom-testi .user-name{
+    top:10rem;
+    left:8rem;
+  }
+/*==========GALLERY PAGE========= */
+
+#ingallery .child img{width:100%;
+}
+
+
+
+/*==========VENDOR PAGE========= */
+
+#vendordetail .child .vendor-text .call-now {
+  top: 11rem;
+  left: 37rem;
+}
+
+
+}
+
+
+
+
+
 /* ==========================================770======================== */
 
 @media only screen and (max-width: 770px) {
+
+
+
+  .banner-logo {
+    top:50%;
+    left:50%;
+    transform: translate(-4rem, -10rem);
+  }
 
 
 
@@ -120,6 +240,19 @@
   #testimonial {
     min-height: 400px;
   }
+
+  #testimonial .custom-testi .bxs-quote-right{
+    top: 8rem;
+    left:17rem;
+    }
+
+    #testimonial .custom-testi .user-name{
+      top:13rem;
+      left:8rem;
+    }
+
+
+
   .child-social {
     margin: 20px 0 0 0;
   }
@@ -127,6 +260,15 @@
   .footer-box .child ul {
     margin: 25px 0 0 0;
   }
+
+  .register h5 {
+  font-size: 27px;
+  line-height: 35px;
+  
+  }
+
+
+
 
 /*========== VENDOR PAGE========= */
 
@@ -138,8 +280,8 @@
   /*========== ABOUT PAGE========= */
 
   #inbanner .inbanner-text {position: absolute;
-    top:12rem;
-    left:18rem;
+    top:14rem;
+    left:20rem;
     padding: 0 0 0 0px;
   }
   #inabout .inabout-pic img {
@@ -149,8 +291,8 @@
 /*========== CONTACT PAGE========= */
 
 #incontactbanner .inbanner-text  {position: absolute;
-  top:12rem;
-  left:18rem;
+  top:14rem;
+  left:20rem;
   padding: 0 0 0 0px;
 }
 #incontact .form-area {
@@ -165,19 +307,31 @@
 }
 
 #ingallerybanner .inbanner-text  {position: absolute;
-  top:12rem;
-  left:18rem;
+  top:14rem;
+  left:20rem;
   padding: 0 0 0 0px;
 }
 
 
 }
 
+
+
+
+
+
 /* ==========================================740======================== */
 
 @media only screen and (max-width: 740px) {
+  
+  #poolcarselect h2 {
+    font-size: 32px;
+    line-height: 25px;
+}
+  
   .form-area {
     padding: 20px 80px 80px 80px;
+    width: 100%;
   }
   form select {
     margin: 0 0 15px 0;
@@ -185,6 +339,7 @@
   #find-btn {
     display: table;
     margin: 0 auto;
+    left: 0rem;
   }
 
   .footer-box {
@@ -192,6 +347,16 @@
   }
   .register {
     width: 99%;
+  }
+
+  #testimonial .custom-testi .bxs-quote-right{
+    top: 9rem;
+    left:14rem;
+    }
+
+    #testimonial .custom-testi .user-name h4 {
+      font-size: 16px;
+      line-height: 10px;
   }
 
   .footer-box .footer-contact-box {
@@ -208,7 +373,7 @@
 
 /*========== GALLERY PAGE========= */
 
-#ingallery .child img{width:290px;
+#ingallery .child img{width:305px;
 }
 
 
@@ -231,10 +396,9 @@
 
 }
 
-/* ==========================================420======================== */
+/* ==========================================480======================== */
 
-@media only screen and (max-width: 420px) {
-
+@media only screen and (max-width: 480px) {
 
 
   header{padding:8px 20px;}
@@ -243,7 +407,7 @@
   cursor: pointer;
   color:#000;
   font-size: 30px;
-  background:#8ff497;
+  background:#66efff;
   }
   
   .nav-bar{height: 0;
@@ -252,7 +416,7 @@
       left: 0;
       right: 0;
       width: 100vw;
-      background:#8ff497;
+      background:#66efff;
       transition: 0.6s;
       z-index: 9999;
       overflow: hidden;
@@ -270,7 +434,99 @@
   
   .nav-bar.active ul{opacity: 1;
   }
-  
+
+
+
+  #banner .banner-box {
+    top: 9rem;
+    right: 52px;
+    width: 60%;
+}
+
+#poolcarselect h2 {
+  font-size: 33px;
+  line-height: 38px;
+}
+
+
+#poolcarselect {
+  padding: 3rem 1rem;
+}
+
+  /*========== ABOUT PAGE========= */
+
+
+  #inabout {
+    margin: 5rem 0;
+    padding: 0 2rem;
+}
+
+
+  #inbanner .inbanner-text {
+    top:14rem;
+    left:10rem;
+    padding: 0 0 0 0px;
+  }
+
+  #inabout .inabout-pic img {
+    margin: 0px 0px 3rem 0rem;
+    width:400px;
+    height: 400px;
+  }
+
+  #inabout .inabout-text h2 {
+  font-size: 26px;
+  line-height: 33px;
+  }
+
+  /*========== CONTACT PAGE========= */
+
+  #incontactbanner .inbanner-text  {
+    top:14rem;
+    left:10rem;
+    padding: 0 0 0 0px;
+  }
+
+  #incontact{display: block;
+  }
+  #incontact .map{width:100%;
+  }
+  #incontact .form-part{width:100%;
+  margin: 20px 0 0 0;
+  }
+
+  /*========== GALLERY PAGE========= */
+
+  #ingallery {
+    padding: 6rem 1rem;
+}
+   #ingallerybanner .inbanner-text  {
+    top:14rem;
+    left:12rem;
+    padding: 0 0 0 0px;
+  }
+  #ingallery .child img {
+    width:205px;
+}
+
+
+  /*========== VENDOR PAGE========= */
+
+#vendordetail .child .vendor-text .call-now {
+  top: 18rem;
+  left: 3rem;
+}
+
+}
+
+
+
+
+
+/* ==========================================420======================== */
+
+@media only screen and (max-width: 420px) {
+
   
   #banner .banner-box {
     position: absolute;
@@ -341,9 +597,6 @@
 
 
 
-
-
-
 /*========== VENDOR PAGE========= */
 
   #vendordetail .child {
@@ -360,7 +613,7 @@
   }
 
   #vendordetail .child .vendor-text .call-now {
-    top: 33.5rem;
+    top: 30.5rem;
     left: 8rem;
   }
 
@@ -424,6 +677,14 @@
     left:9rem;
   }
 
+  #ingallery .child img {
+    width:180px;
+  }
+
+
+
+
+
 
 }     
 
@@ -438,6 +699,21 @@
     width: 340px;
     height: 262px;
 }
+
+
+  /*========== GALLERY PAGE========= */
+#ingallery .child img {
+  width:170px;
+}
+
+
+ /*========== VENDOR PAGE========= */
+
+#vendordetail .child .vendor-text .call-now {
+  top: 32.5rem;
+  left: 7rem;
+}
+
 
 }
 
@@ -483,9 +759,10 @@
 /*========== VENDOR PAGE========= */
 
 #vendordetail .child .vendor-text .call-now {
-  top: 33.5rem;
+  top: 31.5rem;
   left: 7rem;
 }
+
 
 /*========== ABOUT PAGE========= */
 
@@ -505,6 +782,13 @@
   top:12rem;
   left:6rem;
 }
+
+
+  /*========== GALLERY PAGE========= */
+  #ingallery .child img {
+    width:160px;
+  }
+
 
 
 
