@@ -86,17 +86,26 @@
   }
 
   #testimonial .custom-testi .bxs-quote-right{
-    top: 10rem;
+    top: 8rem;
     left:15rem;
     }
     #testimonial .custom-testi .user-name{
-      top:14rem;
+      top:11rem;
       left:8rem;
     }
 
     #testimonial .custom-testi .user-name h4 {
       font-size: 18px;
       line-height: 10px;
+  }
+  #testimonial .custom-testi p {
+  font-size: 14px;
+  line-height: 20px;
+  }
+
+  #testimonial .custom-testi .user img {
+    width: 75px;
+    height: 75px;
   }
 
   .register {
@@ -116,8 +125,8 @@
   }
 
   #vendordetail .child .vendor-text .call-now {
-    top: 17rem;
-    left: 4rem;
+    top: 14rem;
+    left: 17rem;
   }
 
 
@@ -160,10 +169,11 @@
 }
 /*==========GALLERY PAGE========= */
 
-
+#ingallery{padding:80px 15px;
+} 
 #ingallerybanner .inbanner-text {position: absolute;
   top:14rem;
-  left:26rem;
+  left:28rem;
 }  
 #ingallery .child img{width:235px;
 }
@@ -183,7 +193,14 @@
 .form-area {
   padding: 80px 80px 100px 20px;
 }
-
+.car-heading {font-size: 30px;
+  line-height: 40px;
+  padding: 0 0 30px 58px;
+}
+#poolcarselect h2 {
+  font-size:28px;
+  line-height: 25px;
+}
 
 .register {
   width: 100%;
@@ -227,12 +244,14 @@
 
 
   .banner-logo {
-    top:50%;
-    left:50%;
+    top:49%;
+    left:40%;
     transform: translate(-4rem, -10rem);
   }
 
-
+  .banner-box h2 {font-size:16px;
+  line-height: 28px;
+  }
 
   .form-area {
     padding: 80px 80px 80px 20px;
@@ -247,7 +266,7 @@
     }
 
     #testimonial .custom-testi .user-name{
-      top:13rem;
+      top:12rem;
       left:8rem;
     }
 
@@ -325,10 +344,15 @@
 @media only screen and (max-width: 740px) {
   
   #poolcarselect h2 {
-    font-size: 32px;
+    font-size: 26px;
     line-height: 25px;
 }
   
+.car-heading {
+  padding: 0 0 30px 25px;
+}
+
+
   .form-area {
     padding: 20px 80px 80px 80px;
     width: 100%;
@@ -373,7 +397,7 @@
 
 /*========== GALLERY PAGE========= */
 
-#ingallery .child img{width:305px;
+#ingallery .child img{width:330px;
 }
 
 
@@ -386,12 +410,43 @@
 
 /*========== ABOUT PAGE========= */
 
+#inbanner .inbanner-text {
+  top: 14rem;
+  left: 17rem;
+  padding: 0 0 0 0px;
+}
+
+
   #inabout .inabout-pic img {
     margin: 0px 0px 3rem 0rem;
     width: 575px;
     height: 400px;
 }
+#banner .banner-box {
+  position: absolute;
+  top: 12rem;
+  right: 34px;
+  width: 51%;
+}
 
+/*========== CONTACT PAGE========= */
+#incontactbanner .inbanner-text {
+  top:14rem;
+  left:16rem;
+}
+
+
+/*========== GALLERY PAGE========= */
+#ingallery{padding:80px 15px;
+} 
+#ingallery .child img{width:300px;
+}
+
+
+#ingallerybanner .inbanner-text  {position: absolute;
+  top:14rem;
+  left:18rem;
+}
 
 
 }
@@ -407,7 +462,6 @@
   cursor: pointer;
   color:#000;
   font-size: 30px;
-  background:#66efff;
   }
   
   .nav-bar{height: 0;
@@ -416,7 +470,7 @@
       left: 0;
       right: 0;
       width: 100vw;
-      background:#66efff;
+      background:#819c84;
       transition: 0.6s;
       z-index: 9999;
       overflow: hidden;
@@ -431,27 +485,49 @@
   transition: 0.6s;
   opacity: 0;
   }
-  
+  .nav-bar ul li a{color:#fff;
+  }
   .nav-bar.active ul{opacity: 1;
   }
 
-
+  #banner {
+    min-height: 583px;
+  }
 
   #banner .banner-box {
     top: 9rem;
-    right: 52px;
+    right: 24px;
     width: 60%;
 }
 
-#poolcarselect h2 {
-  font-size: 33px;
-  line-height: 38px;
+.car-heading {
+  font-size: 27px;
+  line-height: 29px;
+  padding: 20px 0 19px 23px;
 }
 
+#poolcarselect h2 {
+  font-size: 24px;
+  line-height: 10px;
+}
 
 #poolcarselect {
   padding: 3rem 1rem;
 }
+
+
+#testimonial .custom-testi .bxs-quote-right{
+  top: 7rem;
+  left:22rem;
+  }
+
+  #testimonial .custom-testi .user-name{
+    top:10rem;
+    left:8rem;
+  }
+
+
+
 
   /*========== ABOUT PAGE========= */
 
@@ -497,9 +573,6 @@
 
   /*========== GALLERY PAGE========= */
 
-  #ingallery {
-    padding: 6rem 1rem;
-}
    #ingallerybanner .inbanner-text  {
     top:14rem;
     left:12rem;
@@ -513,9 +586,13 @@
   /*========== VENDOR PAGE========= */
 
 #vendordetail .child .vendor-text .call-now {
-  top: 18rem;
-  left: 3rem;
+  top: 16rem;
+  left: 15rem;
 }
+
+#vendordetail .child {
+  padding: 40px 40px 60px 20px;}
+
 
 }
 
@@ -560,6 +637,10 @@
     width: 130px;
     height: 130px;
   }
+
+  #testimonial{padding: 50px 0 0 0;
+  }
+
   #testimonial p {
     font-size: 15px;
     line-height: 20px;
@@ -583,9 +664,14 @@
   }
 
   #testimonial .custom-testi .user-name{
-    top:14rem;
+    top:12rem;
     left:9rem;
   }
+  #testimonial .custom-testi .bxs-quote-right{
+    top: 8rem;
+    left:17rem;
+    }
+
   #testimonial .custom-testi .user-name h4{font-size: 16px;
     line-height: 10px;
   }
@@ -613,10 +699,11 @@
   }
 
   #vendordetail .child .vendor-text .call-now {
-    top: 30.5rem;
+    top:29rem;
     left: 8rem;
   }
 
+  
   #vendordetail .child {
     padding: 40px 40px 70px 20px;
   }
@@ -656,8 +743,8 @@
 /*========== CONTACT PAGE========= */
 
   #incontactbanner .inbanner-text {position: absolute;
-    top:12rem;
-    left:9rem;
+    top:13rem;
+    left:8rem;
   }
   
   
@@ -693,7 +780,40 @@
 
 @media only screen and (max-width: 380px) {
 
+  #banner .banner-box {
+    top: 7rem;
+    right: 19px;
+    width: 81%;
+}
+
+.car-heading {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#testimonial .custom-testi .user img {
+  width: 60px;
+  height: 60px;
+}
+
+
+#testimonial .custom-testi .user-name{
+  top:12rem;
+  left:7rem;
+}
+
+#testimonial .custom-testi .bxs-quote-right{
+  top: 9rem;
+  left:15rem;
+  }
+
   /*========== ABOUT PAGE========= */
+
+
+  #inbanner .inbanner-text {
+    top: 11rem;
+    left:7rem;
+  }
 
   #inabout .inabout-pic img {
     width: 340px;
@@ -703,16 +823,23 @@
 
   /*========== GALLERY PAGE========= */
 #ingallery .child img {
-  width:170px;
+  width:160px;
 }
+#ingallery{padding:80px 10px;
+} 
+
+#ingallerybanner .inbanner-text {
+  top:13rem;
+  left:8rem;
+}
+
+
 
 
  /*========== VENDOR PAGE========= */
 
-#vendordetail .child .vendor-text .call-now {
-  top: 32.5rem;
-  left: 7rem;
-}
+
+
 
 
 }
@@ -724,8 +851,8 @@
 @media only screen and (max-width: 362px) {
 
   .car-heading {
-    font-size: 22px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 15px;
 }
 
 
@@ -759,17 +886,16 @@
 /*========== VENDOR PAGE========= */
 
 #vendordetail .child .vendor-text .call-now {
-  top: 31.5rem;
-  left: 7rem;
+  top: 29rem;
+  left: 6rem;
 }
+
+
+
 
 
 /*========== ABOUT PAGE========= */
 
-#inbanner .inbanner-text {position: absolute;
-  top:12rem;
-  left:6rem;
-}
 
 #inabout .inabout-pic img {
   width: 330px;
