@@ -469,14 +469,15 @@
       top: 80px;
       left: 0;
       right: 0;
-      width: 100vw;
+      width: 0;
       background:#819c84;
       transition: 0.6s;
       z-index: 9999;
       overflow: hidden;
-      border-radius: 0 0 0 60px;
+    
   }
-  .nav-bar.active{height:300px;
+  .nav-bar.active{height:500px;
+    width:70vw;
   }
   .nav-bar ul{display: block;
   width: fit-content;
@@ -484,8 +485,13 @@
   text-align: center;
   transition: 0.6s;
   opacity: 0;
+  padding-top:0.5rem;
+  }
+  .nav-bar ul li{
+    padding: 1rem 0rem;
   }
   .nav-bar ul li a{color:#fff;
+    font: 600 18px/24px "Nunito", sans-serif;
   }
   .nav-bar.active ul{opacity: 1;
   }

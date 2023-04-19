@@ -1,10 +1,11 @@
 
 // Header
 
-hamburger = document.querySelector(".hamburger");
+hamburger = document.querySelector(".hamburger i");
 hamburger.onclick = function(){
 navBar = document.querySelector(".nav-bar");
 navBar.classList.toggle("active");
+this.classList.toggle("bx-x");
 }
 
 
